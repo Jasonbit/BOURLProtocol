@@ -22,7 +22,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-/*
+/**
     The purpose of this method is to simplify mocking with AFNetworking
  */
 
@@ -88,9 +88,10 @@ typedef void(^BOURLProtocolBlock)(NSURLProtocol *protocol, NSURLRequest *request
  @param url, NSURL, url, local or distant, call in place of the path.
 
  /!\ BEWARE /!\ ALL KEY AND VALUE IN PARAMS SHOULD BE NSSTRING.
-//This feature seems to not always work correctly in CI this is why it is commented
-//Next version would hopefully fix it
-//+ (void)stubPath:(NSString *)path parameters:(NSDictionary *)params mimeType:(NSString *)mimeType load:(NSURL *)url;
+ This feature seems to not always work correctly in CI this is why it is commented
+ Next version would hopefully fix it
+ + (void)stubPath:(NSString *)path parameters:(NSDictionary *)params mimeType:(NSString *)mimeType load:(NSURL *)url;
+*/
  
 /**
  Use this to return data directly.

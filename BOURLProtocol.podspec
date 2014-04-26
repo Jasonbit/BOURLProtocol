@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name     = 'BOURLProtocol'
   s.version  = '1.0'
-  s.license  = 'MIT'
+  s.license  = { :type => 'MIT', :file => 'LICENSE' }
   s.summary  = 'Mocking URL call made easy.'
   s.homepage = 'https://github.com/Jasonbit/BOURLProtocol'
   s.authors  = { 'Boris Charpentier' => 'boris.charpentier@gmail.com' }
